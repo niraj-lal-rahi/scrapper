@@ -1,0 +1,29 @@
+1598699870284	geckodriver	INFO	Listening on 127.0.0.1:62656
+1598699871300	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileV4Lg7M"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598699874290	Marionette	INFO	Listening on port 62667
+1598699874322	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1598699916132	Marionette	INFO	Stopped listening on port 62667
+1598699939957	geckodriver	INFO	Listening on 127.0.0.1:62746
+1598699939992	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileRnVjXK"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598699945018	Marionette	INFO	Listening on port 62755
+1598699945051	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1598699968464	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1598699977228	Marionette	INFO	Stopped listening on port 62755
+1598714585823	geckodriver	INFO	Listening on 127.0.0.1:63148
+1598714586842	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofile0rajY2"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598714590731	Marionette	INFO	Listening on port 63159
+1598714590773	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://main.sci.gov.in"
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/11147200446611871589/index.html#t=704489446836638977&p=https%3A%2F%2F29162511125ec4ff456eded8ff470f2f.safeframe.googlesyndication.com, line 132: TypeError: a.a is null
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/11147200446611871589/index.html#t=704489446836638977&p=https%3A%2F%2F29162511125ec4ff456eded8ff470f2f.safeframe.googlesyndication.com, line 146: TypeError: this.a is null
+1598715600177	Marionette	INFO	Stopped listening on port 63159
