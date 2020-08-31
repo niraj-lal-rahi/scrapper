@@ -45,7 +45,7 @@ class IndexController extends Controller
                 'frm_date' => $request->fdate,
                 'to_date' => $request->tdate
             ]);
-            $process = new Process(['python3', '/Users/niraj/Documents/test.py --id '.$create->id]);
+            $process = new Process(['python3', '/Users/niraj/Documents/test.py','-id',$create->id]);
             // echo storage_path()."/python/test.py --id ".$create->id;
             // $process = new Process(['python3', storage_path()."/python/test.py --id ".$create->id]);
             // echo "/Users/niraj/Documents/test.py --id ".$create->id;
