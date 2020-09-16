@@ -1,0 +1,193 @@
+1599918082447	geckodriver	INFO	Listening on 127.0.0.1:49607
+1599918083466	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilenpPhc5"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599918089659	Marionette	INFO	Listening on port 49618
+1599918089719	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599918293395	geckodriver	INFO	Listening on 127.0.0.1:49727
+1599918294403	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileDmGHgl"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599918299544	Marionette	INFO	Listening on port 49738
+1599918299558	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1599918394394	geckodriver	INFO	Listening on 127.0.0.1:49898
+1599918395407	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilenbtFhe"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599918399954	Marionette	INFO	Listening on port 49909
+1599918400029	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599918493337	Marionette	INFO	Stopped listening on port 49909
+1599918495770	geckodriver	INFO	Listening on 127.0.0.1:49999
+1599918496780	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileQzlDK5"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599918501660	Marionette	INFO	Listening on port 50011
+1599918501741	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599918517974	Marionette	INFO	Stopped listening on port 50011
+1599919092394	geckodriver	INFO	Listening on 127.0.0.1:50626
+1599919093401	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilei17LJ1"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599919098378	Marionette	INFO	Listening on port 50637
+1599919098440	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599919181204	geckodriver	INFO	Listening on 127.0.0.1:50734
+1599919182204	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileaLDI2p"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599919186925	Marionette	INFO	Listening on port 50745
+1599919186993	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599919233074	Marionette	INFO	Stopped listening on port 50745
+1599919247586	Marionette	INFO	Stopped listening on port 50637
+1599919263190	geckodriver	INFO	Listening on 127.0.0.1:50832
+1599919264199	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofile5vnwpu"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599919268943	Marionette	INFO	Listening on port 50844
+1599919269044	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599919285665	Marionette	INFO	Stopped listening on port 50844
+1599919304190	geckodriver	INFO	Listening on 127.0.0.1:50927
+1599919305197	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileHRyX7E"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599919309727	Marionette	INFO	Listening on port 50938
+1599919309811	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599919326085	Marionette	INFO	Stopped listening on port 50938
+1600242265025	geckodriver	INFO	Listening on 127.0.0.1:50785
+1600242266042	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilex75HF4"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600242269805	Marionette	INFO	Listening on port 50797
+1600242269891	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600242273764	Marionette	INFO	Stopped listening on port 50797
+1600242538967	geckodriver	INFO	Listening on 127.0.0.1:51254
+1600242539974	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilerVCAYg"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600242543458	Marionette	INFO	Listening on port 51265
+1600242543517	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600242576409	Marionette	INFO	Stopped listening on port 51265
+1600242588213	geckodriver	INFO	Listening on 127.0.0.1:51345
+1600242589225	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilezXCn78"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600242592245	Marionette	INFO	Listening on port 51356
+1600242592338	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://delhihighcourt.nic.in"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://delhihighcourt.nic.in"
+1600243284459	Marionette	INFO	Stopped listening on port 51356
+1600243288345	geckodriver	INFO	Listening on 127.0.0.1:51783
+1600243289362	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileEEatzU"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600243292654	Marionette	INFO	Listening on port 51794
+1600243292706	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600243728588	Marionette	INFO	Stopped listening on port 51794
+1600243731371	geckodriver	INFO	Listening on 127.0.0.1:52192
+1600243732387	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileoO00iu"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600243735192	Marionette	INFO	Listening on port 52203
+1600243735274	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 689))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1600244095447	Marionette	INFO	Stopped listening on port 52203
+1600244099204	geckodriver	INFO	Listening on 127.0.0.1:52336
+1600244100215	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileNzH77b"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600244106066	Marionette	INFO	Listening on port 52347
+1600244106131	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600244114707	Marionette	INFO	Stopped listening on port 52347
+1600244138851	geckodriver	INFO	Listening on 127.0.0.1:52440
+1600244139868	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileYhZZfw"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600244142967	Marionette	INFO	Listening on port 52451
+1600244142982	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600244154002	Marionette	INFO	Stopped listening on port 52451
+1600244966395	geckodriver	INFO	Listening on 127.0.0.1:52873
+1600244967409	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileRPA5FU"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600244970547	Marionette	INFO	Listening on port 52884
+1600244970697	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v4_bilingual/cases/s_orderdate.php?state=D&state_cd=26&dist_cd=8, line 609: TypeError: parent.document.getElementById(...) is null
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v4_bilingual/cases/s_orderdate.php?state=D&state_cd=26&dist_cd=8, line 638: TypeError: parent.document.getElementById(...) is null
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v4_bilingual/cases/s_orderdate.php?state=D&state_cd=26&dist_cd=8, line 1: ReferenceError: funCourtEstChange is not defined
+1600244978203	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1600245018913	geckodriver	INFO	Listening on 127.0.0.1:52959
+1600245019931	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileOQ7UAj"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600245023302	Marionette	INFO	Listening on port 52970
+1600245023368	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v4_bilingual/cases/s_orderdate.php?state=D&state_cd=26&dist_cd=8, line 609: TypeError: parent.document.getElementById(...) is null
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v4_bilingual/cases/s_orderdate.php?state=D&state_cd=26&dist_cd=8, line 638: TypeError: parent.document.getElementById(...) is null
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v4_bilingual/cases/s_orderdate.php?state=D&state_cd=26&dist_cd=8, line 1: ReferenceError: funCourtEstChange is not defined
+1600245031759	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://services.ecourts.gov.in"
+1600245036339	Marionette	INFO	Stopped listening on port 52970
+1600245076895	geckodriver	INFO	Listening on 127.0.0.1:53046
+1600245077904	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileAUYxl6"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600245081622	Marionette	INFO	Listening on port 53057
+1600245081694	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v4_bilingual/cases/s_orderdate.php?state=D&state_cd=26&dist_cd=8, line 609: TypeError: parent.document.getElementById(...) is null
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v4_bilingual/cases/s_orderdate.php?state=D&state_cd=26&dist_cd=8, line 638: TypeError: parent.document.getElementById(...) is null
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v4_bilingual/cases/s_orderdate.php?state=D&state_cd=26&dist_cd=8, line 1: ReferenceError: funCourtEstChange is not defined
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:111:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:415:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 111, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 111))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:111:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:415:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 111, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 111))
+JavaScript warning: https://code.jquery.com/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 216: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=75
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B0011,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1600245269437	Marionette	INFO	Stopped listening on port 53057
+1600245273459	geckodriver	INFO	Listening on 127.0.0.1:53258
+1600245274477	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilezNMT9q"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600245277944	Marionette	INFO	Listening on port 53269
+1600245278016	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v4_bilingual/cases/s_orderdate.php?state=D&state_cd=26&dist_cd=8, line 609: TypeError: parent.document.getElementById(...) is null
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v4_bilingual/cases/s_orderdate.php?state=D&state_cd=26&dist_cd=8, line 638: TypeError: parent.document.getElementById(...) is null
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v4_bilingual/cases/s_orderdate.php?state=D&state_cd=26&dist_cd=8, line 1: ReferenceError: funCourtEstChange is not defined
+1600254247198	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1600254475097	Marionette	INFO	Stopped listening on port 53269
+1600271093011	geckodriver	INFO	Listening on 127.0.0.1:54772
+1600271094033	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilecqlqCl"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600271097649	Marionette	INFO	Listening on port 54783
+1600271097726	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v4_bilingual/cases/s_orderdate.php?state=D&state_cd=26&dist_cd=8, line 609: TypeError: parent.document.getElementById(...) is null
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v4_bilingual/cases/s_orderdate.php?state=D&state_cd=26&dist_cd=8, line 638: TypeError: parent.document.getElementById(...) is null
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v4_bilingual/cases/s_orderdate.php?state=D&state_cd=26&dist_cd=8, line 1: ReferenceError: funCourtEstChange is not defined
+1600271123392	Marionette	INFO	Stopped listening on port 54783
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v4_bilingual/js/jquery.min.js, line 2: NS_ERROR_NOT_INITIALIZED: 
