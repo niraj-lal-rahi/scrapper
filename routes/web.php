@@ -19,3 +19,9 @@ Route::get('/', function () {
 
 Route::get('home','IndexController@index');
 Route::post('home','IndexController@create');
+
+Route::get('delhi-high-court','DelhiHighCourtController@index');
+Route::post('delhi-high-court','DelhiHighCourtController@store');
+
+Route::get('jsearch','DelhiHighCourtController@jSearch');
+Route::post('jsearch','DelhiHighCourtController@jSearchStore');

@@ -11,14 +11,13 @@ import requests
 import mysql.connector
 import argparse
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
-from selenium.webdriver.support.ui import Select
-
 
 parser = argparse.ArgumentParser(description='Short sample app')
 parser.add_argument('-id','--id', required=True,  type=int)
 
 args = vars(parser.parse_args())
 print("Hi there {}, it's nice to meet you!".format(args["id"]))
+
 
 config = {
     'user': 'root',
@@ -32,17 +31,12 @@ mydb = mysql.connector.connect(**config)
 
 mycursor = mydb.cursor()
 
-sqlSelect = "SELECT case_type,no,year FROM delhi_high_court_cases WHERE id="+str(args['id'])
+sqlSelect = "SELECT date FROM j_searches WHERE id="+str(args['id'])
 mycursor.execute(sqlSelect)
 
 myresult = mycursor.fetchone()
-print(myresult)
-# for x in myresult:
-#mydb.close()
-caseType = myresult[0]
-cno = myresult[1]
-year = myresult[2]
-print("%s",cno)
+
+date = myresult[0]
 try:
     options = FirefoxOptions()
     options.add_argument("--headless")
@@ -52,37 +46,30 @@ try:
     driver.implicitly_wait(30)
     # driver.maximize_window()
 
-    driver.get('http://delhihighcourt.nic.in/case.asp')
+    driver.get('http://164.100.69.66/jsearch/')
     WebDriverWait(driver, 10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
-    time.sleep(2)
+    time.sleep(3)
+
+    driver.find_element_by_xpath("//input[@name='Submit3']").click()
+
+    driver.switch_to.frame("dynfr")
+
+    driver.execute_script("document.getElementById('juddt').removeAttribute('readonly');")
 
 
-    caseField = Select(driver.find_element_by_xpath("//select[@name='ctype_29']"))
-    #caseField = driver.find_element_by_xpath("//form[@name='case_status']//select[@name='ctype_29']")
-    caseField.select_by_value(caseType)
+    driver.find_element_by_id('juddt').clear()
+    driver.find_element_by_id('juddt').send_keys(date)
 
-    if cno != None :
-        case_noField = driver.find_element_by_xpath("//input[@name='cno']").send_keys(cno)
 
-    yearField = Select(driver.find_element_by_xpath("//select[@name='cyear']"))
-    yearField.select_by_value(year)
+    driver.find_element_by_id('Submit').click()
 
-    captcha = driver.find_element_by_id("hiddeninputdigit").get_property("value")
+    all_tables = driver.find_element_by_xpath('//body/table[2]')
+    output = all_tables.get_attribute("outerHTML")
+    print(output)
 
-    #insert captch
-    driver.find_element_by_id("inputdigit").send_keys(captcha)
-
-    driver.find_element_by_xpath("//form[@name='case_status']").submit()
-
-    time.sleep(4)
-
-    output = driver.find_element_by_id('InnerPageContent')
-    source_code = output.get_attribute("outerHTML")
-
-    print(source_code)
-    sql = "UPDATE delhi_high_court_cases SET data=%s WHERE id=%s"
-    val = (source_code,str(args['id']))
+    sql = "UPDATE j_searches SET data=%s WHERE id=%s"
+    val = (output,str(args['id']))
     mycursor.execute(sql, val)
     mydb.commit()
     mydb.close()
@@ -91,4 +78,10 @@ except Exception as err:
     print('ERROR: %sn' % str(err))
     mydb.close()
     driver.quit()
+
+
+
+
+
+
 

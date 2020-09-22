@@ -191,3 +191,470 @@ JavaScript error: https://services.ecourts.gov.in/ecourtindia_v4_bilingual/cases
 JavaScript error: https://services.ecourts.gov.in/ecourtindia_v4_bilingual/cases/s_orderdate.php?state=D&state_cd=26&dist_cd=8, line 1: ReferenceError: funCourtEstChange is not defined
 1600271123392	Marionette	INFO	Stopped listening on port 54783
 JavaScript error: https://services.ecourts.gov.in/ecourtindia_v4_bilingual/js/jquery.min.js, line 2: NS_ERROR_NOT_INITIALIZED: 
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1600328078752	geckodriver	INFO	Listening on 127.0.0.1:49828
+1600328079758	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilewzeGCY"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600328085396	Marionette	INFO	Listening on port 49839
+1600328085442	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600328108005	Marionette	INFO	Stopped listening on port 49839
+1600328110699	geckodriver	INFO	Listening on 127.0.0.1:49916
+1600328111717	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofile2X96HX"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600328116119	Marionette	INFO	Listening on port 49927
+1600328116227	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://164.100.69.66"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://164.100.69.66"
+1600328215715	Marionette	INFO	Stopped listening on port 49927
+1600328219746	geckodriver	INFO	Listening on 127.0.0.1:50013
+1600328220759	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileK6ySHp"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600328225309	Marionette	INFO	Listening on port 50024
+1600328225372	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://164.100.69.66"
+1600328538877	Marionette	INFO	Stopped listening on port 50024
+1600328542875	geckodriver	INFO	Listening on 127.0.0.1:50291
+1600328543875	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileZ15pZM"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600328549471	Marionette	INFO	Listening on port 50302
+1600328549575	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 1: ReferenceError: formcheck_juddt is not defined
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://164.100.69.66"
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://164.100.69.66"
+1600328820119	geckodriver	INFO	Listening on 127.0.0.1:50509
+1600328821138	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofile1RotxS"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600328824128	Marionette	INFO	Listening on port 50521
+1600328824139	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 1: ReferenceError: formcheck_juddt is not defined
+1600328874382	Marionette	INFO	Stopped listening on port 50521
+1600328881340	geckodriver	INFO	Listening on 127.0.0.1:50578
+1600328882351	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofile7NLRE4"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600328886310	Marionette	INFO	Listening on port 50589
+1600328886388	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://164.100.69.66"
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 1: ReferenceError: formcheck_juddt is not defined
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 351 getMutations
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 351 getMutations
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 351 getMutations
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://164.100.69.66"
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 1: ReferenceError: formcheck_juddt is not defined
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:406:10
+
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 351 getMutations
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 351 getMutations
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 351 getMutations
+1600328988065	Marionette	INFO	Stopped listening on port 50589
+1600328992224	Marionette	INFO	Stopped listening on port 50302
+1600328995008	geckodriver	INFO	Listening on 127.0.0.1:50680
+1600328996025	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileffhzeI"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600328999173	Marionette	INFO	Listening on port 50691
+1600328999214	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://164.100.69.66"
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 1: ReferenceError: formcheck_juddt is not defined
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 351 getMutations
+1600329073990	Marionette	INFO	Stopped listening on port 50691
+1600329076388	geckodriver	INFO	Listening on 127.0.0.1:50762
+1600329077413	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileHIE0cL"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600329080268	Marionette	INFO	Listening on port 50773
+1600329080344	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 1: ReferenceError: formcheck_juddt is not defined
+1600329564476	Marionette	INFO	Stopped listening on port 50773
+1600330029271	geckodriver	INFO	Listening on 127.0.0.1:51239
+1600330030281	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileQiZoFm"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600330033214	Marionette	INFO	Listening on port 51250
+1600330033299	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 1: ReferenceError: formcheck_juddt is not defined
+1600330159372	Marionette	INFO	Stopped listening on port 51250
+1600330254620	geckodriver	INFO	Listening on 127.0.0.1:51382
+1600330255641	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileUKxD9H"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600330258639	Marionette	INFO	Listening on port 51393
+1600330258756	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 1: ReferenceError: formcheck_juddt is not defined
+1600330311564	geckodriver	INFO	Listening on 127.0.0.1:51459
+1600330312583	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilez9bVdJ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600330316401	Marionette	INFO	Listening on port 51470
+1600330316504	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600330317060	Marionette	INFO	Stopped listening on port 51393
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 1: ReferenceError: formcheck_juddt is not defined
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 1: ReferenceError: formcheck_juddt is not defined
+1600330418749	Marionette	INFO	Stopped listening on port 51470
+1600330421443	geckodriver	INFO	Listening on 127.0.0.1:51556
+1600330422459	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileLcx5Gm"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600330425191	Marionette	INFO	Listening on port 51567
+1600330425241	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 689))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 1: ReferenceError: formcheck_juddt is not defined
+1600330510452	Marionette	INFO	Stopped listening on port 51567
+1600330512526	geckodriver	INFO	Listening on 127.0.0.1:51642
+1600330513545	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileq1X8LT"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600330516318	Marionette	INFO	Listening on port 51653
+1600330516354	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 1: ReferenceError: formcheck_juddt is not defined
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 351 getMutations
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 351 getMutations
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 351 getMutations
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 351 getMutations
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 351 getMutations
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 351 getMutations
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 351 getMutations
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 1: ReferenceError: formcheck_juddt is not defined
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 351 getMutations
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 351 getMutations
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 351 getMutations
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 351 getMutations
+1600330728741	Marionette	INFO	Stopped listening on port 51653
+1600330731588	geckodriver	INFO	Listening on 127.0.0.1:51757
+1600330732605	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileIKgJfz"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600330735496	Marionette	INFO	Listening on port 51769
+1600330735588	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 1: ReferenceError: formcheck_juddt is not defined
+1600330805138	Marionette	INFO	Stopped listening on port 51769
+1600331079254	geckodriver	INFO	Listening on 127.0.0.1:51902
+1600331080271	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileNcKqWi"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600331083027	Marionette	INFO	Listening on port 51913
+1600331083112	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 1: ReferenceError: formcheck_juddt is not defined
+1600335694839	geckodriver	INFO	Listening on 127.0.0.1:52493
+1600335694990	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileUScgK1"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600335708107	Marionette	INFO	Listening on port 52502
+1600335708809	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+1600335899434	geckodriver	INFO	Listening on 127.0.0.1:49427
+1600335900448	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilelgKxhK"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600335907318	Marionette	INFO	Listening on port 49438
+1600335907472	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 1: ReferenceError: formcheck_juddt is not defined
+1600336214903	Marionette	INFO	Stopped listening on port 49438
+1600336218368	geckodriver	INFO	Listening on 127.0.0.1:49585
+1600336219394	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileGkPCOu"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600336226711	Marionette	INFO	Listening on port 49597
+1600336226737	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 11: ReferenceError: $ is not defined
+JavaScript error: http://164.100.69.66/jsearch/juddt.php?scode=31, line 1: ReferenceError: formcheck_juddt is not defined
+1600336384722	Marionette	INFO	Stopped listening on port 49597
+1600339020655	geckodriver	INFO	Listening on 127.0.0.1:50639
+1600339021663	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilegjTRds"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600339029317	Marionette	INFO	Listening on port 50650
+1600339029426	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600339040925	Marionette	INFO	Stopped listening on port 50650
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1189: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1600342101203	geckodriver	INFO	Listening on 127.0.0.1:51479
+1600342102229	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileOFQWS2"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600342109747	Marionette	INFO	Listening on port 51490
+1600342109874	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bombayhighcourt.nic.in/libjs/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: https://bombayhighcourt.nic.in/index.html, line 503: ReferenceError: pausescroller is not defined
+1600342304596	Marionette	INFO	Stopped listening on port 51490
+1600342309875	geckodriver	INFO	Listening on 127.0.0.1:51671
+1600342310884	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofile5GUjaS"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600342319244	Marionette	INFO	Listening on port 51682
+1600342319279	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bombayhighcourt.nic.in/libjs/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: https://bombayhighcourt.nic.in/index.html, line 503: ReferenceError: pausescroller is not defined
+1600342357239	Marionette	INFO	Stopped listening on port 51682
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofile5GUjaS/protections.sqlite
+1600342392581	geckodriver	INFO	Listening on 127.0.0.1:51824
+1600342393589	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilemtPHN1"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600342401811	Marionette	INFO	Listening on port 51835
+1600342401922	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bombayhighcourt.nic.in/libjs/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: https://bombayhighcourt.nic.in/index.html, line 503: ReferenceError: pausescroller is not defined
+1600342440139	Marionette	INFO	Stopped listening on port 51835
+1600409865525	geckodriver	INFO	Listening on 127.0.0.1:49817
+1600409866534	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileQngcTJ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600409872261	Marionette	INFO	Listening on port 49828
+1600409872288	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/proxy.js, line 287: NS_ERROR_NOT_INITIALIZED
+1600409884947	Marionette	INFO	Stopped listening on port 49828
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 697: Error: Phase "xpcom-will-shutdown" is finished, it is too late to register completion condition "ContentParent: id=12891c000"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 697: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "ContentParent: id=12891c000"
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1600410104627	geckodriver	INFO	Listening on 127.0.0.1:50057
+1600410105647	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilekLX19p"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600410109167	Marionette	INFO	Listening on port 50068
+1600410109239	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bombayhighcourt.nic.in/libjs/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: https://bombayhighcourt.nic.in/index.html, line 503: ReferenceError: pausescroller is not defined
+1600410149618	Marionette	INFO	Stopped listening on port 50068
+console.error: services.settings: 
+  main/messaging-experiments Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1600410184975	geckodriver	INFO	Listening on 127.0.0.1:50171
+1600410185993	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilefDj4B8"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600410188749	Marionette	INFO	Listening on port 50182
+1600410188804	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bombayhighcourt.nic.in/libjs/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: https://bombayhighcourt.nic.in/index.html, line 503: ReferenceError: pausescroller is not defined
+1600412026945	Marionette	INFO	Stopped listening on port 50182
+1600414754833	geckodriver	INFO	Listening on 127.0.0.1:51085
+1600414755855	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilekvvEgc"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600414759563	Marionette	INFO	Listening on port 51096
+1600414759587	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bombayhighcourt.nic.in/libjs/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: https://bombayhighcourt.nic.in/index.html, line 503: ReferenceError: pausescroller is not defined
+1600414907202	Marionette	INFO	Stopped listening on port 51096
+1600414923001	geckodriver	INFO	Listening on 127.0.0.1:51216
+1600414924008	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofile8qzkOQ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600414927629	Marionette	INFO	Listening on port 51227
+1600414927716	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bombayhighcourt.nic.in/libjs/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: https://bombayhighcourt.nic.in/index.html, line 503: ReferenceError: pausescroller is not defined
+1600414988955	Marionette	INFO	Stopped listening on port 51227
+1600414990987	geckodriver	INFO	Listening on 127.0.0.1:51322
+1600414992001	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileX3llSG"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600414994918	Marionette	INFO	Listening on port 51333
+1600414994991	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bombayhighcourt.nic.in/libjs/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: https://bombayhighcourt.nic.in/index.html, line 503: ReferenceError: pausescroller is not defined
+1600415005926	Marionette	INFO	Stopped listening on port 51333
+1600415244455	geckodriver	INFO	Listening on 127.0.0.1:51743
+1600415245474	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileDWTGAQ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600415248119	Marionette	INFO	Listening on port 51754
+1600415248180	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bombayhighcourt.nic.in/libjs/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: https://bombayhighcourt.nic.in/index.html, line 503: ReferenceError: pausescroller is not defined
+1600415258299	Marionette	INFO	Stopped listening on port 51754
+1600415460578	geckodriver	INFO	Listening on 127.0.0.1:51862
+1600415461594	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilehwugDJ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600415464227	Marionette	INFO	Listening on port 51873
+1600415464300	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bombayhighcourt.nic.in/libjs/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: https://bombayhighcourt.nic.in/index.html, line 503: ReferenceError: pausescroller is not defined
+1600415474228	Marionette	INFO	Stopped listening on port 51873
+1600415517354	geckodriver	INFO	Listening on 127.0.0.1:51963
+1600415518371	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofile4aIjsq"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600415521228	Marionette	INFO	Listening on port 51974
+1600415521288	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bombayhighcourt.nic.in/libjs/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: https://bombayhighcourt.nic.in/index.html, line 503: ReferenceError: pausescroller is not defined
+1600415531871	Marionette	INFO	Stopped listening on port 51974
+1600415823879	geckodriver	INFO	Listening on 127.0.0.1:52129
+1600415824889	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilehijizg"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600415827582	Marionette	INFO	Listening on port 52140
+1600415827672	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bombayhighcourt.nic.in/libjs/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: https://bombayhighcourt.nic.in/index.html, line 503: ReferenceError: pausescroller is not defined
+1600415836820	Marionette	INFO	Stopped listening on port 52140
+1600416027957	geckodriver	INFO	Listening on 127.0.0.1:52243
+1600416028971	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilev1qMsZ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600416032025	Marionette	INFO	Listening on port 52255
+1600416032101	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bombayhighcourt.nic.in/libjs/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: https://bombayhighcourt.nic.in/index.html, line 503: ReferenceError: pausescroller is not defined
+1600416040043	Marionette	INFO	Stopped listening on port 52255
+1600416083440	geckodriver	INFO	Listening on 127.0.0.1:52340
+1600416084451	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileE9X1ka"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600416087312	Marionette	INFO	Listening on port 52351
+1600416087369	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bombayhighcourt.nic.in/libjs/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: https://bombayhighcourt.nic.in/index.html, line 503: ReferenceError: pausescroller is not defined
+1600416094759	Marionette	INFO	Stopped listening on port 52351
+1600416132489	geckodriver	INFO	Listening on 127.0.0.1:52439
+1600416133506	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileOpZd58"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600416136352	Marionette	INFO	Listening on port 52450
+1600416136387	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bombayhighcourt.nic.in/libjs/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: https://bombayhighcourt.nic.in/index.html, line 503: ReferenceError: pausescroller is not defined
+1600416146168	Marionette	INFO	Stopped listening on port 52450
+1600777902400	geckodriver	INFO	Listening on 127.0.0.1:49652
+1600777903416	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofile1TC625"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600777906062	Marionette	INFO	Listening on port 49663
+1600777906104	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600777910207	Marionette	INFO	Stopped listening on port 49663
+1600778041208	geckodriver	INFO	Listening on 127.0.0.1:49750
+1600778042225	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileY1DprN"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600778045978	Marionette	INFO	Listening on port 49761
+1600778046057	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 689))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1600778052201	Marionette	INFO	Stopped listening on port 49761
+1600778111253	geckodriver	INFO	Listening on 127.0.0.1:49840
+1600778112270	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilePub1Kd"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600778115006	Marionette	INFO	Listening on port 49851
+1600778115032	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600778120710	Marionette	INFO	Stopped listening on port 49851
+1600778153523	geckodriver	INFO	Listening on 127.0.0.1:49917
+1600778154542	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilepqnQ4e"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600778157360	Marionette	INFO	Listening on port 49928
+1600778157419	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600778162078	Marionette	INFO	Stopped listening on port 49928
+1600778548849	geckodriver	INFO	Listening on 127.0.0.1:50087
+1600778549862	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofile8dSvkn"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600778552643	Marionette	INFO	Listening on port 50098
+1600778552745	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600778561136	Marionette	INFO	Stopped listening on port 50098
+1600778650691	geckodriver	INFO	Listening on 127.0.0.1:50180
+1600778651705	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilerzvByl"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600778654450	Marionette	INFO	Listening on port 50191
+1600778654471	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600778659691	Marionette	INFO	Stopped listening on port 50191
+1600778709266	geckodriver	INFO	Listening on 127.0.0.1:50254
+1600778710280	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileezQpXm"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600778713000	Marionette	INFO	Listening on port 50265
+1600778713072	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600778717817	Marionette	INFO	Stopped listening on port 50265
+1600778762712	geckodriver	INFO	Listening on 127.0.0.1:50329
+1600778763728	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileyrmmSI"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600778766431	Marionette	INFO	Listening on port 50340
+1600778766526	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600778771118	Marionette	INFO	Stopped listening on port 50340
+1600778887695	geckodriver	INFO	Listening on 127.0.0.1:50415
+1600778888706	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileeAdyBH"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600778891528	Marionette	INFO	Listening on port 50427
+1600778891591	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600778899097	Marionette	INFO	Stopped listening on port 50427
+1600779166895	geckodriver	INFO	Listening on 127.0.0.1:50534
+1600779167907	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilewI3T38"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600779170742	Marionette	INFO	Listening on port 50545
+1600779170806	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600779174801	Marionette	INFO	Stopped listening on port 50545
+1600779205542	geckodriver	INFO	Listening on 127.0.0.1:50607
+1600779206549	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofiletKLHII"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600779209264	Marionette	INFO	Listening on port 50618
+1600779209311	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600779278127	Marionette	INFO	Stopped listening on port 50618
+1600779280126	geckodriver	INFO	Listening on 127.0.0.1:50687
+1600779281143	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileVLNfTq"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600779283984	Marionette	INFO	Listening on port 50698
+1600779284056	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600779386149	geckodriver	INFO	Listening on 127.0.0.1:50772
+1600779387150	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileCSNkQB"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600779390232	Marionette	INFO	Listening on port 50783
+1600779390249	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600779398645	Marionette	INFO	Stopped listening on port 50783
+1600779460469	geckodriver	INFO	Listening on 127.0.0.1:50853
+1600779461484	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofile37APXA"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600779464262	Marionette	INFO	Listening on port 50864
+1600779464359	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600779468148	Marionette	INFO	Stopped listening on port 50864
+1600779510046	geckodriver	INFO	Listening on 127.0.0.1:50929
+1600779511050	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofile7LHgGW"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600779513861	Marionette	INFO	Listening on port 50940
+1600779513944	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600779522288	Marionette	INFO	Stopped listening on port 50940
+1600779527106	Marionette	INFO	Stopped listening on port 50698
+1600779545822	geckodriver	INFO	Listening on 127.0.0.1:51008
+1600779546835	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofiletqfZDR"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600779549692	Marionette	INFO	Listening on port 51020
+1600779549715	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600779557930	Marionette	INFO	Stopped listening on port 51020

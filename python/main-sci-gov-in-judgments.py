@@ -32,7 +32,7 @@ parser = argparse.ArgumentParser(description='Short sample app')
 parser.add_argument('-id','--id', required=True,  type=int)
 
 args = vars(parser.parse_args())
-print("Hi there {}, it's nice to meet you!".format(args["id"]))
+# print("Hi there {}, it's nice to meet you!".format(args["id"]))
 
 config = {
     'user': 'root',
@@ -41,36 +41,35 @@ config = {
                 'database': 'scrapper',
                     'raise_on_warnings': True,
 }
-
-mydb = mysql.connector.connect(**config)
-
-mycursor = mydb.cursor()
-
-sqlSelect = "SELECT * FROM base WHERE id="+str(args['id'])
-mycursor.execute(sqlSelect)
-
-myresult = mycursor.fetchone()
-
-# for x in myresult:
-
-frm_date = myresult[1]
-to_date = myresult[2]
-# print("%s",myresult[1])
 try:
+    mydb = mysql.connector.connect(**config)
+
+    mycursor = mydb.cursor()
+
+    sqlSelect = "SELECT * FROM base WHERE id="+str(args['id'])
+    mycursor.execute(sqlSelect)
+
+    myresult = mycursor.fetchone()
+
+    # for x in myresult:
+
+    frm_date = myresult[1]
+    to_date = myresult[2]
+    # print("%s",myresult[1])
+
     options = FirefoxOptions()
     options.add_argument("--headless")
 
     driver = webdriver.Firefox(options=options)
-    # driver = webdriver.Firefox()
     driver.implicitly_wait(30)
     # driver.maximize_window()
 
-    driver.get('https://main.sci.gov.in/daily-order')
+    driver.get('https://main.sci.gov.in/judgments')
     WebDriverWait(driver, 10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
     time.sleep(2)
 
-    driver.find_element_by_link_text('ROP Date').click()
+    driver.find_element_by_link_text('Judgment Date').click()
 
     WebDriverWait(driver, 10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
@@ -92,7 +91,7 @@ try:
 
     captcha_text = get_captcha_text(location, size)
     captcha.send_keys(captcha_text)
-    driver.find_element_by_id('getJBJ').click()
+    driver.find_element_by_id('v_getJBJ').click()
 
     time.sleep(5)
 
@@ -102,15 +101,12 @@ try:
     print(source_code)
     #https://medium.com/@vineet_c/using-tesseract-to-solve-captcha-while-logging-in-to-a-website-with-selenium-899a810cf14
 
-
     sql = "UPDATE base SET data=%s WHERE id=%s"
     val = (source_code,str(args['id']))
     mycursor.execute(sql, val)
     mydb.commit()
-    mydb.close()
     driver.quit()
 except Exception as err:
     print('ERROR: %sn' % str(err))
     mydb.close()
     driver.quit()
-

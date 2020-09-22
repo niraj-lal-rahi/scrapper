@@ -14,7 +14,7 @@
   <script>
     $( function() {
       $( "#fdate" ).datepicker({
-        dateFormat: 'dd-mm-yy',
+        dateFormat: 'dd/mm/yy',
         maxDate: new Date()
       });
     } );
@@ -49,20 +49,11 @@
             </select>
         </div>
 
-        {{-- <div class="form-group">
-            <input type="radio" id="order" name="type" value="order">
-            <label for="order">Order</label><br>
-            <input type="radio" id="judgments" name="type" value="judgments">
-            <label for="judgments">Judgements</label><br>
-        </div> --}}
-    <div class="form-group">
-      <label for="email">From Date:</label>
-      <input type="text" class="form-control" id="fdate" placeholder="Enter From Date" name="fdate">
-    </div>
-    <div class="form-group">
-      <label for="pwd">To Date:</label>
-      <input type="text" class="form-control" id="tdate" placeholder="Enter To Date" name="tdate">
-    </div>
+
+        <div class="form-group">
+            <label for="email">From Date:</label>
+            <input type="text" class="form-control" id="fdate" placeholder="Enter From Date" name="fdate">
+        </div>
 
     <button type="submit" class="btn btn-default">Submit</button>
   </form>
