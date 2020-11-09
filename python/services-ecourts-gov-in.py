@@ -1,19 +1,12 @@
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-import pprint
-from selenium.webdriver.support.ui import WebDriverWait
-from pytesseract import image_to_string
-from PIL import Image
-import time
-import io
-#import pytesseract
-import requests
-import mysql.connector
-import argparse
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium.webdriver.support.ui import Select
-
-
+from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
+from PIL import Image
+from pytesseract import image_to_string
+import time
 
 def get_captcha_text(location, size):
     # pytesseract.pytesseract.tesseract_cmd = 'path/to/pytesseract'
@@ -29,89 +22,77 @@ def get_captcha_text(location, size):
     return captcha_text
 
 
-parser = argparse.ArgumentParser(description='Short sample app')
-parser.add_argument('-id','--id', required=True,  type=int)
+def get_captcha_image(driver):
+    element = driver.find_element_by_id('captcha_image')
+    location = element.location
 
-args = vars(parser.parse_args())
-print("Hi there {}, it's nice to meet you!".format(args["id"]))
+    size = element.size
+    driver.save_screenshot('screenshot.png')
 
-config = {
-    'user': 'root',
-        'password': 'root',
-            'unix_socket': '/Applications/MAMP/tmp/mysql/mysql.sock',
-                'database': 'scrapper',
-                    'raise_on_warnings': True,
-}
+    return get_captcha_text(location,size)
 
-#mydb = mysql.connector.connect(**config)
+# main function
+if __name__ =="__main__":
 
-#mycursor = mydb.cursor()
+    site_url = "https://services.ecourts.gov.in/ecourtindia_v4_bilingual/cases/s_orderdate.php?state=D&state_cd=26&dist_cd=8"
 
-# sqlSelect = "SELECT * FROM base WHERE id="+str(args['id'])
-# mycursor.execute(sqlSelect)
+    driver = webdriver.Firefox()
+    driver.implicitly_wait(30)
+    driver.maximize_window()
 
-# myresult = mycursor.fetchone()
+    driver.get(site_url)
+    WebDriverWait(driver, 10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
-# # for x in myresult:
+    # enter static value
+    courtComplex = Select(driver.find_element_by_id("court_complex_code")).select_by_value('1@1,2,3,4@N')
 
-# frm_date = myresult[1]
-# to_date = myresult[2]
-# print("%s",myresult[1])
+    fromDate = driver.find_element_by_id('from_date').send_keys('02-09-2020')
+    toDate = driver.find_element_by_id('to_date').send_keys('03-09-2020')
 
-# options = FirefoxOptions()
-# options.add_argument("--headless")
+    i = 0
+    previous = ''
+    while i<10:
+        print(i)
 
-# driver = webdriver.Firefox(options=options)
-driver = webdriver.Firefox()
-driver.implicitly_wait(30)
-driver.maximize_window()
+        captcha_text = get_captcha_image(driver)
+        captcha = driver.find_element_by_id('captcha')
+        captcha.clear()
+        captcha.send_keys(captcha_text) #enter captcha text
 
-driver.get('https://services.ecourts.gov.in/ecourtindia_v4_bilingual/cases/s_orderdate.php?state=D&state_cd=26&dist_cd=8')
-WebDriverWait(driver, 10).until(lambda d: d.execute_script('return document.readyState') == 'complete')
+        driver.execute_script("validate();") #submit
 
-time.sleep(2)
+        try:
+            WebDriverWait(driver, 3).until(EC.alert_is_present(),
+                                                'Timed out waiting for PA creation ' +
+                                                'confirmation popup to appear.')
 
-courtComplex = Select(driver.find_element_by_id("court_complex_code")).select_by_value('1@1,2,3,4@N')
+            alert = driver.switch_to.alert
+            alert_text = alert.text
+            alert.accept()
+            # driver.execute_script("clearCaptchaText();") #submit
+            driver.find_element_by_xpath('//a[@title="Refresh Image"]').click()
+            print('alert - accept')
+            print(alert_text)
+            i = i+1
+        except TimeoutException:
 
-fromDate = driver.find_element_by_id('from_date').send_keys('02-09-2020')
-toDate = driver.find_element_by_id('to_date').send_keys('03-09-2020')
+            server_error_msg = driver.find_element_by_id('errSpan')
+            if server_error_msg.is_displayed() :
+                i=i+1
+            else :
+                break
 
 
+        if previous == i :
+            i=i+1
+        else :
+            previous = i
 
-element = driver.find_element_by_id('captcha_image')
-location = element.location
 
-#print(location)
-
-size = element.size
-driver.save_screenshot('screenshot.png')
-
-captcha = driver.find_element_by_id('captcha')
-captcha.clear()
-
-captcha_text = get_captcha_text(location, size)
-captcha.send_keys(captcha_text)
-
-driver.find_element_by_xpath("//form[@name='frm']").submit()
-
-time.sleep(5)
+time.sleep(10)
 
 output = driver.find_element_by_id('showList3')
-
-# from bs4 import BeautifulSoup
-# page_html = driver.page_source
-# bsoup = BeautifulSoup(page_html, 'html.parser')
 source_code = output.get_attribute("outerHTML")
 print(source_code)
-#https://medium.com/@vineet_c/using-tesseract-to-solve-captcha-while-logging-in-to-a-website-with-selenium-899a810cf14
 
-
-# sql = "INSERT INTO base(frm_date, to_date, link, data) VALUES (%s, %s, %s, %s)"
-# val = ('21-03-2020','22-03-2020','https://main.sci.gov.in/judgments',source_code)
-# mycursor.execute(sql, val)
-
-# sql = "UPDATE base SET data=%s WHERE id=%s"
-# val = (source_code,str(args['id']))
-# mycursor.execute(sql, val)
-# mydb.commit()
 driver.quit()
