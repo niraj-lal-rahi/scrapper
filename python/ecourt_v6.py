@@ -156,7 +156,7 @@ if __name__ =="__main__":
             download_page_from_child_link()
 
         print(source_code)
-    except TimeoutException:
-        print('ERROR:')
+    except Exception as err:
+        print('ERROR: %sn' % str(err))
 
 

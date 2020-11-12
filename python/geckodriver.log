@@ -1571,3 +1571,242 @@ JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILUR
 JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10025: unreachable code after return statement
 JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13937: TypeError: document.getElementById(...) is null
 1602849072971	Marionette	INFO	Stopped listening on port 55149
+1605134482818	geckodriver	INFO	Listening on 127.0.0.1:50171
+1605134483850	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofile4rlbdY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605134487299	Marionette	INFO	Listening on port 50182
+1605134487343	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+1605135307665	Marionette	INFO	Stopped listening on port 50182
+1605135310384	geckodriver	INFO	Listening on 127.0.0.1:50486
+1605135311406	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileSfKdd9"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605135314822	Marionette	INFO	Listening on port 50497
+1605135314936	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+1605136057220	Marionette	INFO	Stopped listening on port 50497
+1605137272331	geckodriver	INFO	Listening on 127.0.0.1:51347
+1605137273359	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilePH8rwd"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605137276139	Marionette	INFO	Listening on port 51358
+1605137276278	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1605137599356	geckodriver	INFO	Listening on 127.0.0.1:51489
+1605137600368	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilej9HPRn"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605137603438	Marionette	INFO	Listening on port 51500
+1605137603489	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10191, Chrome_ChildThread] WARNING: pipe error: Socket is not connected: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 696
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1605138005490	geckodriver	INFO	Listening on 127.0.0.1:51624
+1605138006512	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofile2cfzLw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605138009109	Marionette	INFO	Listening on port 51637
+1605138009208	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1605138306846	geckodriver	INFO	Listening on 127.0.0.1:51741
+1605138307857	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileDkGm0b"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605138310927	Marionette	INFO	Listening on port 51752
+1605138310987	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+1605138335798	Marionette	INFO	Stopped listening on port 51752
+1605138434586	geckodriver	INFO	Listening on 127.0.0.1:51837
+1605138435602	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileBB22Fo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605138438290	Marionette	INFO	Listening on port 51848
+1605138438389	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+1605138467327	Marionette	INFO	Stopped listening on port 51848
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1D0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1D0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1605138692644	geckodriver	INFO	Listening on 127.0.0.1:51944
+1605138693664	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileqaPo54"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605138696301	Marionette	INFO	Listening on port 51955
+1605138696350	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1605191582220	geckodriver	INFO	Listening on 127.0.0.1:50051
+1605191583248	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilewQKc6z"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605191587529	Marionette	INFO	Listening on port 50062
+1605191587644	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1605192598975	geckodriver	INFO	Listening on 127.0.0.1:50404
+1605192599985	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileIpwWpN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605192604327	Marionette	INFO	Listening on port 50415
+1605192604462	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+1605192620713	Marionette	INFO	Stopped listening on port 50415
+1605192738312	geckodriver	INFO	Listening on 127.0.0.1:50535
+1605192739334	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileIIVfkw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605192741824	Marionette	INFO	Listening on port 50546
+1605192741858	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+1605192770333	Marionette	INFO	Stopped listening on port 50546
+1605192958529	geckodriver	INFO	Listening on 127.0.0.1:50640
+1605192959541	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileD5qZOn"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605192962162	Marionette	INFO	Listening on port 50651
+1605192962236	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+1605192988963	Marionette	INFO	Stopped listening on port 50651
+1605193097668	geckodriver	INFO	Listening on 127.0.0.1:50732
+1605193098690	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilezajWRI"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605193101277	Marionette	INFO	Listening on port 50743
+1605193101400	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+1605193121093	Marionette	INFO	Stopped listening on port 50743
+1605193185946	geckodriver	INFO	Listening on 127.0.0.1:50815
+1605193186968	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofile5afpHM"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605193189557	Marionette	INFO	Listening on port 50826
+1605193189602	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+1605193213840	Marionette	INFO	Stopped listening on port 50826
+1605193372975	geckodriver	INFO	Listening on 127.0.0.1:50917
+1605193373997	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileSYZU9x"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605193376521	Marionette	INFO	Listening on port 50928
+1605193376576	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+1605193417376	Marionette	INFO	Stopped listening on port 50928
+1605193841931	geckodriver	INFO	Listening on 127.0.0.1:51074
+1605193842952	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileJYO0M0"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605193845585	Marionette	INFO	Listening on port 51085
+1605193845640	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+1605193880444	Marionette	INFO	Stopped listening on port 51085
+1605193959116	geckodriver	INFO	Listening on 127.0.0.1:51167
+1605193960137	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilevXb5ix"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605193962718	Marionette	INFO	Listening on port 51178
+1605193962777	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+1605194930409	Marionette	INFO	Stopped listening on port 51178
+1605195289517	geckodriver	INFO	Listening on 127.0.0.1:51321
+1605195290537	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileVyfK2D"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605195293587	Marionette	INFO	Listening on port 51333
+1605195293673	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+1605196254396	Marionette	INFO	Stopped listening on port 51333
+1605196461001	geckodriver	INFO	Listening on 127.0.0.1:51470
+1605196462022	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilencrWlI"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605196464591	Marionette	INFO	Listening on port 51481
+1605196464705	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+1605197855185	Marionette	INFO	Stopped listening on port 51481
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605198944757	geckodriver	INFO	Listening on 127.0.0.1:51704
+1605198945779	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileWDKrGG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605198948957	Marionette	INFO	Listening on port 51716
+1605198949004	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1605199038559	geckodriver	INFO	Listening on 127.0.0.1:51808
+1605199039580	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileV1php1"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605199042034	Marionette	INFO	Listening on port 51819
+1605199042088	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+1605199055533	Marionette	INFO	Stopped listening on port 51819
+1605199258824	geckodriver	INFO	Listening on 127.0.0.1:51922
+1605199259846	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofilekbS8kS"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605199262542	Marionette	INFO	Listening on port 51933
+1605199262663	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+1605199273479	Marionette	INFO	Stopped listening on port 51933
+1605199311589	geckodriver	INFO	Listening on 127.0.0.1:52002
+1605199312608	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/cr/9w5017_s4c3058kgc4407mq80000gn/T/rust_mozprofileKEE22g"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605199315298	Marionette	INFO	Listening on port 52013
+1605199315439	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://services.ecourts.gov.in/ecourtindia_v6/, line 10026: unreachable code after return statement
+JavaScript error: https://services.ecourts.gov.in/ecourtindia_v6/, line 13938: TypeError: document.getElementById(...) is null
+1605201498569	Marionette	INFO	Stopped listening on port 52013
